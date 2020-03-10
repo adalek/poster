@@ -38,7 +38,7 @@ function draw() {
     rect(120,-218,l2-15,l)
     rect(120,-185,l2-15,l)
     
-  
+  /*
  //red   
     fill(236, 112, 99,200)
 
@@ -83,8 +83,31 @@ function draw() {
     text('R        S         I        T        S        W        H',-168,140)
     textSize(14)
     text('A       T       Y       O       U        S       E       E',-166,170)
+*/
+fill(236, 112, 99,200)
+    //atext(' I  T  S',-160,-150,110)
+    atext('N   O   T   W',-146,-90,55)
+    atext('H    A    T    Y    O',-150,-25,38)
+    atext('U     L     O     O     K',-144,25,32)
+    atext('A     T     T     H     A     T',-150,70,27)
+    atext('M         A         T         T         E',-132,110,20)
+    atext('R        S         I        T        S        W        H',-138,140,15)
+    atext('A       T       Y       O       U        S       E       E',-136,170,14)
+    fill(133, 193, 233,150)
+    atext('N   O   T   W',-170,-90,55)
+    atext('H    A    T    Y    O',-172,-25,38)
+    atext('U     L     O     O     K',-170,25,32)
+    atext('A     T     T     H     A     T',-170,70,27)
+    atext('M         A         T         T         E',-168,110,20)
+    atext('R        S         I        T        S        W        H',-168,140,15)
+    atext('A       T       Y       O       U        S       E       E',-166,170,14)
+}
 
 
+
+function atext(a,b,c,d){
+    textSize(d)
+    text(a,b,c)
 }
 
 
